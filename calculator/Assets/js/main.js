@@ -13,7 +13,7 @@ function percentage(result){
     }
 }
 function makeNegative(result) {
-    if(result.charAt(0) =='_'){
+    if(result.charAt(0) == '_'){
         document.querySelector('.area').value = result.replace('-','');
     } else {
         document.querySelector('.area').value = '-' + result;
